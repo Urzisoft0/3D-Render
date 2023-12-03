@@ -1,11 +1,15 @@
 import javax.swing.JFrame;
 import java.awt.*;
 
+
 public class Dim extends JFrame {
     static Dimension ScreenSize = Toolkit.getDefaultToolkit().getScreenSize();
     static JFrame F = new Dim();
     Screen ScreenObject = new Screen();
 
+    void diii() {
+
+    }
 
     public Dim() {
         add(ScreenObject);
